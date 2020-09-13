@@ -1,0 +1,36 @@
+{
+  "name": "ajs-2.2",
+  "version": "1.0.0",
+  "description": "\"game\"",
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.6.5"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "mini-css-extract-plugin": "^0.11.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-hit/ajs-2.2.git"
+  },
+  "keywords": [
+    "\"game\""
+  ],
+  "author": "hit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-hit/ajs-2.2/issues"
+  },
+  "homepage": "https://github.com/i-hit/ajs-2.2#readme"
+}
